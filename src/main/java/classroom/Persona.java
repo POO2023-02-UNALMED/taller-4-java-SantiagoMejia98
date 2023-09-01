@@ -10,6 +10,10 @@ public class Persona {
         totalPersonas = 0;
         cedula = 3;
     }
+    
+    public Persona() {
+    	this.nombre = "";
+    }
 
     public Persona(long cedula, String nombre) {
         this.cedula = cedula;
